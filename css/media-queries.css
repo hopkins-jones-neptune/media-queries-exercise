@@ -115,9 +115,8 @@ nav {
     img {
         width: 100%;
     }
-
     .main{
-        display: flex;
+        display: inline-block;
         flex-wrap: wrap;
         flex-direction: column;
         flex: 1;
@@ -125,14 +124,16 @@ nav {
     }
 
     .sub-section{
-        display: flex;
+        display: inline-block;
         flex-wrap: wrap;
         flex-direction: column;
         flex: 1;
         width:50%;
+        float: right;
 
 
     }
+
     footer{
         display: flex;
 
