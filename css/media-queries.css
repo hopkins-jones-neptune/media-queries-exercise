@@ -1,9 +1,11 @@
-body {
-    background-color: white;
-    padding: 2px;
-}
 
 @media only screen and (max-width: 900px) {
+    body {
+        background-color: white;
+        padding: 2px;
+        flex-direction: column;
+    }
+
     .alert-info {
         background-color: #ccffff;
         display: flex;
@@ -20,18 +22,12 @@ body {
 
     }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding-top: .1em;
-    font-size: 40px;
-}
-
-
-    img {
-        width: 100%;
+    h1 {
         display: flex;
+        justify-content: center;
+        margin: auto;
+        padding-top: .1em;
+        font-size: 40px;
     }
 
     li {
@@ -42,20 +38,27 @@ h1 {
         text-align: center;
         font-size: larger;
     }
-nav {
-    display: flex;
-    justify-content: center;
-}
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
     .nav-links {
         width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0;
     }
+
     .header-img{
         display: flex;
         justify-content: center;
+    }
 
+    img {
+        width: 100%;
+        display: flex;
     }
 
     .sub-section {
@@ -74,17 +77,18 @@ nav {
     #social-media-links{
         margin-left: auto;
     }
-
 }
 
 
 @media only screen and (min-width: 900px) {
     body {
-
+        flex-direction: row;
     }
+
     .alert-info{
         display:none;
     }
+
     li {
         margin: 10px 10px 10px 10px;
         padding: 10px 10px 10px 10px;
@@ -103,6 +107,7 @@ nav {
         padding: 0;
         margin-top: 30px;
     }
+
     nav {
         width: 100%
     }
@@ -111,17 +116,19 @@ nav {
         float: left;
         font-size: 70px;
         margin-top: 15px;
-
     }
+
     .header-img {
         display: flex;
         width: 100vw;
         margin-right: 1em;
     }
+
     img {
         width: 100%;
         padding-right: 3em;
     }
+
     .main{
         display: inline-block;
         flex-wrap: wrap;
@@ -147,15 +154,16 @@ nav {
         margin-top: 250px;
 
     }
+
     footer p{
         float:left;
         margin: 0;
     }
+
     #social-media-links{
         margin-left: auto;
         padding-right: 1em;
     }
-
 }
 
 
