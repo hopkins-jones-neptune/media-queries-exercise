@@ -91,6 +91,11 @@ nav {
         list-style-type: none;
         font-size: larger;
     }
+
+    li a:link {
+        font-family: 'Open Sans', sans-serif;
+    }
+
     .nav-links {
         float: right;
         display: flex;
@@ -111,16 +116,18 @@ nav {
     .header-img {
         display: flex;
         width: 100vw;
+        margin-right: 1em;
     }
     img {
         width: 100%;
+        padding-right: 3em;
     }
     .main{
         display: inline-block;
         flex-wrap: wrap;
         flex-direction: column;
         flex: 1;
-        width:50%
+        width:65%
     }
 
     .sub-section{
@@ -128,15 +135,16 @@ nav {
         flex-wrap: wrap;
         flex-direction: column;
         flex: 1;
-        width:50%;
+        width:30%;
         float: right;
-
+        font-style: italic;
+        padding-right: 1em;
 
     }
 
     footer{
         display: flex;
-
+        margin-top: 250px;
 
     }
     footer p{
@@ -145,6 +153,7 @@ nav {
     }
     #social-media-links{
         margin-left: auto;
+        padding-right: 1em;
     }
 
 }
